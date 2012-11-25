@@ -5,10 +5,19 @@ html {
 
 body {
   background-color: #f8fff8;
-  color: #151915;
+  color: #152915;
   font-family: 'Open Sans', sans-serif;
   margin: 1em 0 0 0;
   padding: 0;
+}
+
+.quote small {
+  float: right;
+}
+
+.lead {
+  font-size: 150%;
+  font-weight: 200;
 }
 
 a {
