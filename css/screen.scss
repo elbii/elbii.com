@@ -1,14 +1,16 @@
 html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
-  background-image: url("/img/bernal.jpg");
+  background-image: url('/img/bernal.jpg');
   color: #152915;
   font-family: 'Open Sans', sans-serif;
   margin: 1em 0 0 0;
   padding: 0;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .two-column {
   text-align: justify;
@@ -17,68 +19,85 @@ body {
   -webkit-column-count: 2;
   -webkit-column-gap: 2em;
   column-count: 2;
-  column-gap: 2em; }
+  column-gap: 2em;
+}
 
-.quote small {
-  float: right; }
-.quote img {
-  border-radius: 4px;
-  box-shadow: 0 0 4px #a0a9a0; }
+.quote {
+  small { float: right; }
+  img {
+    border-radius: 4px;
+    box-shadow: 0 0 4px #a0a9a0;
+  }
+}
 
 .lead {
   font-size: 150%;
-  font-weight: 200; }
+  font-weight: 200;
+}
 
 a {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 header {
-  width: 100%; }
-  header .logo {
-    float: left; }
-  header nav {
+  width: 100%;
+  
+  .logo { float: left; }
+  nav {
     float: right;
-    text-align: center; }
+    text-align: center;
+  }
+}
 
 .clear {
-  clear: both; }
+  clear: both;
+}
 
 hr {
-  color: #c8d1c8;
-  background-color: #c8d1c8;
+  color: rgb(200, 209, 200);
+  background-color: rgb(200, 209, 200);
   border: 0;
   height: 1px;
-  margin: 1em 0 1em 0; }
+  margin: 1em 0 1em 0;
+}
 
 a {
-  color: #0083ff; }
+  color: #0083ff;
+}
 
 #wrap {
   border-radius: 4px;
   box-shadow: 0 0 4px #a0a9a0;
   padding: 2em;
-  background: #f8fff8;
+  background: rgb(248, 255, 248);
   background: rgba(248, 255, 248, 0.9);
   margin: 0 auto;
   margin-top: 0;
-  width: 800px; }
+  width: 800px;
+}
 
 #content {
-  margin-top: 4em; }
+  margin-top: 4em;
+}
 
 footer {
   width: 100%;
   text-align: center;
-  margin-top: 5em; }
+  margin-top: 5em;
+}
 
 .nav {
-  list-style-type: none; }
-  .nav li {
-    display: inline; }
+  list-style-type: none;
+  li {
+    display: inline;
+  }
+}
 
 .blog-post-container {
-  float: left; }
+  float: left;
+}
 
 .blog-archive-container {
-  float: right; }
+  float: right;
+}
