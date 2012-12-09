@@ -48,6 +48,8 @@ header nav {
 
 .clear { clear: both; }
 
+.extra-small { font-size: 60%; }
+
 hr {
   color: rgb(200, 209, 200);
   background-color: rgb(200, 209, 200);
