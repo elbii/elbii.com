@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: From Completely Broke to Successful Consultant in a Year
+title: From Completely Broke to Successful Consultant In a Year
 ---
 
 <h1>
-  From Completely Broke to Successful Consultant in a Year
+  From Completely Broke to Successful Consultant In a Year
 </h1>
 <p><small>Nov 27, 2012 by <a href="https://github.com/jamillion" target="_blank">jamil</a></small></p>
 
