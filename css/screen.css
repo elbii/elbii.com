@@ -1,10 +1,14 @@
 html {
   margin: 0;
   padding: 0;
+  background: url(/img/bernal.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 body {
-  background-image: url('/img/bernal.jpg');
   color: #152915;
   font-family: 'Open Sans', sans-serif;
   margin: 1em 0 0 0;
@@ -22,7 +26,7 @@ body {
   column-gap: 2em;
 }
 
-.quote small { float: right; }
+.quote { text-align: center; }
 .quote img {
   border-radius: 4px;
   box-shadow: 0 0 4px #a0a9a0;
@@ -32,6 +36,21 @@ body {
   font-size: 150%;
   font-weight: 200;
 }
+
+.post-image {
+  width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+.post-image div {
+  width: 431px;
+  margin: 0 auto;
+}
+.post-image img {
+  border-radius: 4px;
+  box-shadow: 0 0 4px #a0a9a0;
+}
+.post-image small { font-size: 80%; }
 
 a {
   padding: 0;
@@ -68,6 +87,8 @@ hr {
   margin: 0 auto;
   margin-top: 0;
   width: 800px;
+  height: 100%;
+  overflow: none;
 }
 
 #content { margin-top: 4em; }
@@ -81,6 +102,14 @@ footer {
 .nav { list-style-type: none; }
 .nav li { display: inline; }
 
-.blog-post-container { float: left; }
+.blog-post-container {
+  float: left;
+  font-size: 120%;
+  text-align: justify;
+}
 
-.blog-archive-container { float: right; }
+.blog-archive-container {
+  display: inline;
+  float: right;
+  font-size: 80%;
+}
