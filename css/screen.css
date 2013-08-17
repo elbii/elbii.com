@@ -8,6 +8,12 @@ html {
 	background-size: cover;
 }
 
+.highlight {
+  padding: 1em;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', sans-serif;
+}
+
 body {
   color: #152915;
   font-family: 'Open Sans', sans-serif;
