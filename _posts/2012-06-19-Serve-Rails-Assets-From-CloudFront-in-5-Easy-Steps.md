@@ -15,14 +15,14 @@ The basic premise is that you use your Amazon S3+Cloudfront-hosted compiled asse
 ### Step 1: Create an S3 bucket and Cloudfront distribution
 
 _I'll assume you know how to do this already._
-&nbsp;
+
 ### Step 2: Ensure your asset manifest file will make it to production when you deploy
 
 _Note that you can safely add the rest of the contents of public/assets to .gitignore. All you need is the manifest. Who's crazy enough to track all those assets in version control anyway?_
 
     $ echo 'public/assets' >> .gitignore
     $ git add -f public/assets/manifest.yml
-&nbsp;
+
 ### Step 3: Ensure development and production environments are configured properly
 
 _config/environments/development.rb_:
@@ -34,17 +34,18 @@ config.serve_static_assets = false
 
 _config/environments/production.rb_:
 
-    # We'll be serving static assets with Cloudfront
-    config.serve_static_assets = false
+{% highlight ruby %}
+# We'll be serving static assets with Cloudfront
+config.serve_static_assets = false
 
-    # don't compile an asset on-the-fly if it's not found in manifest.yml
-    # warning: this will cause a 500 error if asset isn't listed in manifest.yml!
-    config.assets.compile = false
+# don't compile an asset on-the-fly if it's not found in manifest.yml
+# warning: this will cause a 500 error if asset isn't listed in manifest.yml!
+config.assets.compile = false
 
-    # Prefix all asset paths with asset_host
-    config.action_controller.asset_host = 'http://{bucket-name}.s3.amazonaws.com'
+# Prefix all asset paths with asset_host
+config.action_controller.asset_host = 'http://{bucket-name}.s3.amazonaws.com'
+{% endhighlight %}
 
-&nbsp;
 ### Step 4: Add the asset\_sync gem and generate config:
 
 _Gemfile_:
@@ -58,7 +59,6 @@ _then do_:
     $ bundle
     $ rails g asset_sync:install
 
-&nbsp;
 ### Step 5: Edit config/asset\_sync.yml for your environment:
 
 
@@ -104,13 +104,13 @@ _Et voila! All you need to do now is_:
 
 And that's it! asset\_sync automatically syncs your assets to Amazon S3 whenever you run rake assets:precompile. Now, each time you deploy, you would do something like this:
 
-1. $ rake assets:precompile
-2. $ git commit -am "unicorns are sexy"
-3. $ git push && cap deploy
+    1. $ rake assets:precompile
+    2. $ git commit -am "unicorns are sexy"
+    3. $ git push && cap deploy
 
 **Done and done.**
 
-&nbsp;
+
 Resources:
 
 - [AWS S3](http://aws.amazon.com/s3/)
