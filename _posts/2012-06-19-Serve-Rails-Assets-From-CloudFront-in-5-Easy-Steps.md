@@ -118,6 +118,3 @@ Resources:
 - [Rails Asset Pipeline Guide](http://guides.rubyonrails.org/asset_pipeline.html)
 - [asset\_sync gem](https://github.com/rumblelabs/asset_sync)
 
-
-{% include _disqus.html %}
-
