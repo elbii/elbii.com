@@ -2,6 +2,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en-us'>
   <head>
     <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <meta name='author' content='Elbii' />
 		<meta name='description' content='Faster, More Reliable, More Profitable Web Applications'>
@@ -20,10 +21,10 @@
       <header>
         <div class='row'>
           <div class='col-md-3'>
-            <a href='/'><img src='/img/logo.png' class='img-responsive' alt='Ebii Logo'></a>
+            <a href='/'><img src='/img/logo.png' class='small-spacer-top center-block img-responsive' alt='Ebii Logo'></a>
           </div>
           <div class='col-md-6 text-center'>
-            <nav>
+            <nav class='small-spacer-top'>
               <ul class='list-inline'>
                 <li><a href='/services.html'>services</a></li>
                 <li>|</li>
@@ -39,15 +40,13 @@
         </div>
       </header>
 
-      <div id='content'>
+      <div id='content' class='medium-spacer-top'>
         {{ content }}
       </div>
 
-      <footer>
+      <footer class='medium-spacer-top'>
         <div class='well'>
           <div class='row'>
-            <div class='col-md-6'>
-            </div>
             <div class='col-md-2'>
               <h5>Social</h5>
               <ul class='list-unstyled'>
@@ -75,9 +74,17 @@
                 <li><a href='https://github.com/elbii/ruby-sdee'>Ruby SDEE</a></li>
               </ul>
             </div>
+            <div class='col-md-2'>
+              <h5>More Stuff</h5>
+              <ul class='list-unstyled'>
+              </ul>
+            </div>
+            <div class='col-md-4'>
+              {% include newsletter_form.html %}
+            </div>
           </div>
           <div class='row'>
-            <div class='col-md-12 text-center'>© 2013 Elbii LLC</div>
+            <div class='col-md-12 text-center'>© 2014 Elbii LLC</div>
           </div>
         </div>
       </footer>
