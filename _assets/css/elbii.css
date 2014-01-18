@@ -1,27 +1,19 @@
-html {
-  font-weight: 300;
-}
-
-nav {
+.small-spacer-top {
   margin-top: 20px;
 }
 
-p {
-  font-size: 20px;
+.small-spacer-bottom {
+  margin-bottom: 20px;
 }
 
-p.lead {
-  font-size: 28px;
+.medium-spacer-top {
+  margin-top: 60px;
 }
 
-div#content {
-  margin-top: 100px;
+.medium-spacer-bottom {
+  margin-bottom: 60px;
 }
 
 .text-justify {
   text-align: justify;
-}
-
-footer {
-  margin-top: 100px;
 }
