@@ -65,6 +65,7 @@ system users to login to Jenkins when we enable security later on.
 
 ### Configure Jenkins
 ---
+
 Security
 Email host
 Plugins
@@ -92,12 +93,12 @@ fixed.
 We'll start by creating a new job. Enter a job name and select "Build a
 free-style software project", then click OK.
 
-![jenkins new job](/img/jenkins_new_job.png)
+<img src='/img/jenkins_new_job.png' class='img-responsive' alt='jenkins new job'>
 
 For now, forget about the SCM section and scroll all the way down to the Build
 section. Click the Add build step dropdown, then select "Execute shell".
 
-![jenkins add build step](/img/jenkins_add_build_step.png)
+<img src='/img/jenkins_add_build_step.png' class='img-responsive' alt='jenkins add build step'>
 
 Our build sequence will consist of first cleaning up any potentially stale
 directories, installing updated requirements / libraries, running the test
@@ -110,7 +111,7 @@ use the Makefile convention with the following build steps:
 3. make test-xunit
 4. make cov
 
-![Jenkins build steps](/img/jenkins_build_steps.png)
+<img src='/img/jenkins_build_steps.png' class='img-responsive' alt='jenkins build steps'>
 
 Finally, we'll add post-build action that will notify us when the build fails.
 At the bottom of the page click the "Add post-build action" dropdown and then
@@ -118,16 +119,16 @@ select "E-mail notification". This section is pretty straightforward... enter
 your scrum master's email address, your team's alias, or a comma-separated list
 of whoever you want to receive broken build notifications.
 
-![jenkins email notification](/img/jenkins_email_notification.png)
+<img src='/img/jenkins_email_notification.png' class='img-responsive' alt='jenkins email notification'>
 
 Click Save, then on the following screen, select "Build now".
 
-![jenkins build now](/img/jenkins_build_now.png)
+<img src='/img/jenkins_build_now.png' class='img-responsive' alt='jenkins build now'>
 
 If sendmail is working properly on your machine you should receive an
 email complaining that you broke the build! :-)
 
-![jenkins build failure](/img/jenkins_build_failure.png)
+<img src='/img/jenkins_build_failure.png' class='img-responsive' alt='jenkins build failure'>
 
 
 ### Create a Makefile to run your tests
