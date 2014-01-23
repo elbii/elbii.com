@@ -11,8 +11,6 @@ tags:
 
 # Fully Automate Your Rails / NodeJS Tests in 30 Minutes
 
-<i class='icon-time icon-large'></i> 30 minutes
-
 Hello there! Happy {{ site.time | date: "%A" }}. My goal with this guide
 is to extinguish any excuse you may have for not automating your tests with a
 continuous integration server. All too often, a slight configuration or version
