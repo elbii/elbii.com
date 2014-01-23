@@ -9,11 +9,9 @@
 		<meta name='keywords' content='elbii, elbii labs, ruby on rails, node.js, mongodb, backbone.js, javascript, coffeescript, css, web development'>
     <link rel='shortcut icon' href='http://elbii.com/favicon.ico' />
 
-    {% css_asset_tag global %}
-    - /_assets/css/bootstrap.min.css
-    - /_assets/css/syntax.css
-    - /_assets/css/elbii.css
-    {% endcss_asset_tag %}
+    <link rel='stylesheet' type='text/css' href='/css/bootstrap.min.css' />
+    <link rel='stylesheet' type='text/css' href='/css/elbii.css' />
+    <link rel='stylesheet' type='text/css' href='/css/syntax.css' />
   </head>
   <body>
     <div class='container'>
@@ -92,9 +90,7 @@
     </div>
 
     <!-- JS -->
-    {% javascript_asset_tag global %}
-    - /_assets/js/elbii.js
-    - /_assets/js/analytics.js
-    {% endjavascript_asset_tag global %}
+    <script type='text/javascript' src='/js/elbii.js'></script>
+    <script type='text/javascript' src='/js/analytics.js'></script>
   </body>
 </html>
