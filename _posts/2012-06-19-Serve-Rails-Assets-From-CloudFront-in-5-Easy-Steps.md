@@ -117,3 +117,4 @@ Resources:
 - [AWS CloudFront](http://aws.amazon.com/cloudfront/)
 - [Rails Asset Pipeline Guide](http://guides.rubyonrails.org/asset_pipeline.html)
 - [asset\_sync gem](https://github.com/rumblelabs/asset_sync)
+
