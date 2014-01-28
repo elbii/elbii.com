@@ -10,7 +10,7 @@ tags:
 
 
 ## Notes from Select Talks at DEFCON 21
-Earlier this year I had the privilege to attend DEFCON 21. I wanted to experience the security community's reaction to the breaking news about Edward Snowden and the NSA. Not surprisingly, many of the talks focused on issues related to privacy and civil liberty, and these are the onesI tried to attend most. Here are my notes.
+Earlier this year I had the privilege to attend DEFCON 21. I wanted to experience the security community's reaction to the Edward Snowden revelations. Not surprisingly, many of the talks focused on issues related to privacy and civil liberty, and these are the onesI tried to attend most. Here are my notes.
 
 1. Welcome / Badges
 2. The Growing Irrelevance of US Government Cybersecurity Intelligence Information
@@ -45,7 +45,7 @@ uber/black: elite competitions & awards. free dc entry for life
 human: regular badge
 inhuman: speaker, press, vendor
 
-alternate having microcontrollers and not every year. dc 22 will have powerful yet-to-be-released chip (evolution of dc20's chip). if it's not ready, however, they'll use the [msp 430]. dc22's badge will incorporate watchmaking, an inspiration from his grandfather.
+alternate having microcontrollers and not every year. dc 22 will have powerful yet-to-be-released chip (evolution of dc20's chip). if it's not ready, however, they'll use the [msp 430](http://www.ti.com/lsds/ti/microcontroller/16-bit_msp430/overview.page). dc22's badge will incorporate watchmaking, an inspiration from his grandfather.
 
 this year, press badge is a deuce, all others are face cards.
 
@@ -65,7 +65,7 @@ why?
 5. the people who really need to know classified info are the ones who don't have clearance. ex: us gets much of its power from canada, but can't reveal latest threats on power grid to canadian citizens.
 6. of all incidents revealed to private sector, only 4% were things private sector didn't already know!
 
-mentioned [worm]: book about confickr.
+mentioned [worm](http://amzn.com/B0076TWARY): book about confickr.
 
 why isnt govt doing anything? what is govts role then?
 
@@ -78,10 +78,10 @@ not enough manpower to provide stuff necessary for mass declassification. snowde
 past year, banks have gone through ddos. best part about it: CSOs of banks got together to talk, lots of info sharing, collaboration. we need more sharing.
 
 info exchange programs:
-[taxi program]
-[mandiant open ioc framework]
-[itf program] (used by csirt)
-[isacs]... no funding unfortunately
+[taxi program](http://taxii.mitre.org)
+[mandiant open ioc framework](http://www.openioc.org)
+[itf program](http://www.dhs.gov/publication/integrated-task-force) (used by csirt)
+[isacs](https://www.fsisac.com)... no funding unfortunately
 
 "you're not invited clubs" spring up in incidents like confickr outbreak, but only people with skillset and connections get brought into those situations.
 
@@ -98,42 +98,42 @@ what govt can do:
 He was first technologist at ACLU to focus solely on privacy & surveillance.
 
 First crypto wars:
-there was when you couldn't export strong crypto from the US. in mid 90s, govt sought to demonize crypto. socially acceptable, fbi-backed crypto was [clipper chip]. '96 clinton signed [crypto bill], pgp and others could then export crypto.
+there was when you couldn't export strong crypto from the US. in mid 90s, govt sought to demonize crypto. socially acceptable, fbi-backed crypto was [clipper chip](http://en.wikipedia.org/wiki/Clipper_chip). '96 clinton signed [crypto bill (warning: pdf)](http://www.gpo.gov/fdsys/pkg/FR-1996-11-19/pdf/96-29692.pdf), pgp and others could then export crypto.
 but no one uses pgp cause it's too hard. terrorists, pedophiles, don't use pgp.
 https more widely used cause it was transparent. but only for e-commerce, banks. most sites still get info over http.
 fbi starts to get worried cause more and more companies are building crypto into their products.
-fbi general counsel [valerie caproni] says crypto is a problem for certain companies.
+fbi general counsel [valerie caproni](http://en.wikipedia.org/wiki/Valerie_E._Caproni) says crypto is a problem for certain companies.
 
-january 2010, something remarkable happens: [google turns ssl on by default in gmail]. first of the large email providers to do so. afterward, several silicon valley companies followed suit.
+january 2010, something remarkable happens: [google turns ssl on by default in gmail](http://gmailblog.blogspot.com/2010/01/default-https-access-for-gmail.html). first of the large email providers to do so. afterward, several silicon valley companies followed suit.
 
-Mentioned [Perfect-forward secrecy] "next-gen ssl". but doesn't mean encrypted at rest -- how can google show ads if it can't read your email?
+Mentioned [Perfect-forward secrecy](http://en.wikipedia.org/wiki/Forward_secrecy#Perfect_Forward_Secrecy) "next-gen ssl". but doesn't mean encrypted at rest -- how can google show ads if it can't read your email?
 
-companies do get requests from lea for data. years past, metadata would be available to govt. [first wiretaps 1895]. phone companies typically offered dragnet while silicon valley companies only allowed targetted. apple did something great with imessages: bypassed phone companies (on handset).
+companies do get requests from lea for data. years past, metadata would be available to govt. [first wiretaps 1895](http://en.wikipedia.org/wiki/Telephone_tapping#History). phone companies typically offered dragnet while silicon valley companies only allowed targetted. apple did something great with imessages: bypassed phone companies (on handset).
 
 diff between silicon valley and phone companies is culture: valley has security. so how does govt solve this problem? backdoors!
 
-[CALEA]: law requiring backdoors
+[CALEA](http://en.wikipedia.org/wiki/Communications_Assistance_for_Law_Enforcement_Act): law requiring backdoors
 
 valerie caproni testified: fbi wants power to go to a company secretly and force a backdoor into their products. justice dpt involved
 
 snowden revealed this, politicians won't touch it now. govt agencies don't have tools / backdoors b/t each other. in other countries, govt can't access data if no office there.
 
-[FINFISHER]: IT intrusion software, developed by [Gamma]
-CEO of Gamma is [Martin Munch], creator of [Backtrack Linux]
+[FINFISHER](http://en.wikipedia.org/wiki/FinFisher): IT intrusion software, developed by [Gamma]
+CEO of Gamma is [Martin Munch](http://bits.blogs.nytimes.com/2012/08/13/elusive-finspy-spyware-pops-up-in-10-countries/?_php=true&_type=blogs&_r=0), creator of [Backtrack Linux](http://www.backtrack-linux.org)
 can operate webcams w/out user knowing, has been used by oppressive regimes.
 
-[HACKINGTEAM] [da vinci]: markets itself to LEA who are trying to deal with things like skype. has been to trade shows, conventions to sell these things. (to small LEAs).
+[HACKINGTEAM](http://www.hackingteam.it/index.php) Da Vinci / Galileo: markets itself to LEA who are trying to deal with things like skype. has been to trade shows, conventions to sell these things. (to small LEAs).
 
 but feds wouldn't use this. instead, would have resources to write 0days.
 
-aclu filed foi act request to see if any govt agencies were really going dark. response: [remote operations unit]. provides lawful hacking to law enforcement.
+aclu filed foi act request to see if any govt agencies were really going dark. response: [remote operations unit](http://mashable.com/2013/08/03/fbi-hacking-criminals/). provides lawful hacking to law enforcement.
 
-[bimen associates] provides hackers to fbi. [jerry menchhoff], president. also member of [(San Diego?) metasploit user group].
+[bimen associates](http://www.corpwatch.org/article.php?id=15864) provides hackers to fbi. jerry menchhoff, president. also member of metasploit user group.
 
-recent case in texas where fbi sought warrant to monitor individual. fbi [tweeted] "pirated software may contain malware"
+recent case in texas where fbi sought warrant to monitor individual. fbi [tweeted](https://twitter.com/FBIPressOffice/status/365157699987582978) "pirated software may contain malware"
 
 what will fbi do when silicon valley starts providing e2e encryption? backdoor like skype?
-no, [silent circle], [spider oak].
+no, [silent circle](https://silentcircle.com), [spider oak](https://spideroak.com).
 
 calea omits wiretapping if user encryption is used, so govt will probably target this section of the law.
 
@@ -141,7 +141,7 @@ calea omits wiretapping if user encryption is used, so govt will probably target
 ### Meet the VCs
 #### Deepak, John, Ping, Andressen Horowitz, Accel Partners
 
-guy from [Lookout Security] is panel moderator
+guy from [Lookout Security](https://www.lookout.com) is panel moderator
 
 Q: What are you looking for?
 A: market applicability. security doesn't sell itself... bigger opportunities sell better when security is tacked on. they’re looking for stuff that takes 3 years at least and is a killer product. motivated not to invest in “me too” tech, even if they’re looking 3 years out. great entrepreneurs are ones who see around the corner. security is particularly hard because there’s so many knowledgeable people. mobile, cloud, big data mean super ambitious security applications.
@@ -154,9 +154,9 @@ traits of good entrepreneurs / CEOs:
 
 security is huge with the advent of the internet of things. net present value utility curve can diverge pretty rapidly.
 
-[deferred stock investment]:
-don’t take money if you’re going to have a small biz. Ex: [Nessus] was bootstrapped for 5-6 years, then raised VC $$. take VC money if you’re building a huge company to change the world.
-if you’re looking for vc funding, you’ve got to find firms that help you be successful. [executive briefing center at A-H].
+[deferred stock investment](http://www.investopedia.com/terms/d/deferredshare.asp):
+don’t take money if you’re going to have a small biz. Ex: [Nessus](http://www.tenable.com/products/nessus) was bootstrapped for 5-6 years, then raised VC $$. take VC money if you’re building a huge company to change the world.
+if you’re looking for vc funding, you’ve got to find firms that help you be successful. [executive briefing center at A-H](http://a16z.com/briefings/).
 every step you take should be able to increase your odds of success.
 banks look for low-risk investment — if they’ll lend then VCs won’t.
 
@@ -170,26 +170,26 @@ A: whenever, start building relationships right away
 Q: why not invest in anti-child porno?
 A: gave the dude a 10-min pitch opportunity on the spot
 
-other options to raise money include [kickstarter], [ angelist ]
+other options to raise money include [kickstarter](http://www.kickstarter.com), [angelist](http://angel.co)
 
 
 ### ACLU Presents
 #### Alex Abdo, Catherine Crump, Christopher Soghoian, Nicole Ozer, Cate Crockford
 
 Applause to Ed Snowden…
-revealed what we’ve worried about for a while. privacy should be protected by constitutional law, not [moore’s law].
+revealed what we’ve worried about for a while. privacy should be protected by constitutional law, not [moore’s law](http://en.wikipedia.org/wiki/Moore's_law).
 
 alex abdo:
-[2008 fisa ammendments act]: gives government unfettered access to international communication. aclu battled this b/c you can’t often control how packets were routed. government blocked efforts to sue.
-[PRISM] is one version of implementation of fisa act. only for international but americans’ are always swept up. government can keep americans info for [5 years]. they will keep you communication if they *think* you’re a foreigner. PRISM program allows NSA to do [geographic surveillance].
+[2008 fisa ammendments act](http://en.wikipedia.org/wiki/Foreign_Intelligence_Surveillance_Act_of_1978_Amendments_Act_of_2008): gives government unfettered access to international communication. aclu battled this b/c you can’t often control how packets were routed. government blocked efforts to sue.
+[PRISM](http://en.wikipedia.org/wiki/PRISM_(surveillance_program) is one version of implementation of fisa act. only for international but americans’ are always swept up. government can keep americans info for [5 years](http://blog.foreignpolicy.com/posts/2013/06/17/prism_spin_war_round_two_nsa_swears_its_intel_programs_are_no_big_deal). they will keep you communication if they *think* you’re a foreigner. PRISM program allows NSA to do geographic surveillance.
 
 catherine crump:
 NSA cellular metadata domestic surveillance
 storing metadata going back 5 years
-fisa court has approved general approach to collecting data. [section 215 patriot act] authorizes certain surveillance. verizon provides phone service to ACLU… whoops! conflict there.
+fisa court has approved general approach to collecting data. [section 215 patriot act](https://www.aclu.org/free-speech-national-security-technology-and-liberty/reform-patriot-act-section-215) authorizes certain surveillance. verizon provides phone service to ACLU… whoops! conflict there.
 
 chris soghoian:
-what do you do when you lack resources necessary to monitor dragnet-style? subsidized telco monitoring equipment. you [deputize internet & telco companies], sometimes paying (hundreds of millions of $$).
+what do you do when you lack resources necessary to monitor dragnet-style? subsidized telco monitoring equipment. you [deputize internet & telco companies](http://www.opednews.com/articles/Congress-May-Deputize-Tele-by-elliot-cohen-111129-278.html), sometimes paying (hundreds of millions of $$).
 there wouldn’t be a prism program if companies / telco weren’t participating.
 but some companies are avoiding participation. this will help but really need to increase cost of surveillance.
 
@@ -198,24 +198,24 @@ snowden has given us first real info of how often government is taking advantage
 
 cate crockford:
 guilty until proven innocent
-personal privacy and government transparency have been flipped recently. [automatic license plate readers] aren’t as ubiquitous as [cctv cameras] but soon will be. [vigilant solutions] has over [1 billion license plate reads]. available not only to government, but also to [private companies!] (WTF). twitter notifies users of [subpoenas issued for them]. [join aclu], 700,000 members, to increase their voice in D.C.
+personal privacy and government transparency have been flipped recently. [automatic license plate readers](http://en.wikipedia.org/wiki/Automatic_number_plate_recognition) aren’t as ubiquitous as [cctv cameras](http://en.wikipedia.org/wiki/Closed-circuit_television) but soon will be. [vigilant solutions](http://vigilantsolutions.com) has over [1 billion license plate reads](http://vigilantsolutions.com/press/hollywood_police_locate_fugitives_license_plate_reader_data). available not only to government, but also to [private companies!](http://vigilantsolutions.com/products/nvls) (WTF). twitter notifies users of [subpoenas issued for them](https://support.twitter.com/articles/41949-guidelines-for-law-enforcement). [join aclu](https://www.aclu.org/secure/join-aclu), 700,000 members, to increase their voice in D.C.
 
 
 ### UFOs and Government: A Historical Inquiry
 #### 
 
-They’re here. but what does it mean? WWII marked modern era of UFO reports and denials. [Only book] recommended by [CHOICE] for academic study. [Chinatown]: movie that describes this talk. chinatown moments are moments where you realize everything you thought is no longer the same. people in power just wait it out. easy political game. this talk is not about standard UFOs pictures that have been faked / hoaxed.
+They’re here. but what does it mean? WWII marked modern era of UFO reports and denials. Only book recommended by [CHOICE](http://www.ala.org/acrl/choice/) for academic study. [Chinatown](http://www.imdb.com/title/tt0071315/): movie that describes this talk. chinatown moments are moments where you realize everything you thought is no longer the same. people in power just wait it out. easy political game. this talk is not about standard UFOs pictures that have been faked / hoaxed.
 
 this is what we mean by UFO:
-massachusetts: [1952 coast guard pic of UFOs in formation]
+massachusetts: [1952 coast guard pic of UFOs in formation](http://www.ufocasebook.com/coastguardphoto1952.html)
 
 first reported as foo fighters over gemany and we didn’t know what they were. no one knew though but everyone suspected they were other countries military vehicles.
 
 1947: military knew about these and anomamlous, and a fact. serious issue and take seriously.
-project [SIGN]’s conclusion was that it was extraterrestrial but this was shot down. project [ GRUDGE ]was then formed to come up wihth a better answer. but no one knew what it was and people wanted to know if these UFOs were threats.
+project [SIGN](http://en.wikipedia.org/wiki/Project_Sign)’s conclusion was that it was extraterrestrial but this was shot down. project [ GRUDGE ](http://en.wikipedia.org/wiki/Project_Grudge) was then formed to come up wihth a better answer. but no one knew what it was and people wanted to know if these UFOs were threats.
 US airforce was commussioned to protect airspace over washington so they took these as threats. and loaded anti-aircraft guns and scrambled fighters.
 
-[Project Blue Book]: [Allen Hynek]!
+[Project Blue Book](http://en.wikipedia.org/wiki/Project_Blue_Book): [Allen Hynek](http://en.wikipedia.org/wiki/J._Allen_Hynek)!
 flying saucers are not a threat to national security. reports of flying saucers are. hynek started a skeptic but after hundreds of interviews started realizing something after interviewing hundreds of global incidents. higher intensity illumination by UFOs corresponded to higher power movement. 3 or 4 civilizations are likely visiting based on correlated events.
 
 1. illusions
@@ -228,32 +228,32 @@ flying saucers are not a threat to national security. reports of flying saucers 
 Darpa-mil announcement for new supercomputer
 Mudge
 Tell some stories!
-Not long after joing [DARPA], got funding for targetting “advanced” [APT], called [CINDER].
+Not long after joing [DARPA](http://www.darpa.mil), got funding for targetting “advanced” [APT](http://en.wikipedia.org/wiki/Advanced_persistent_threat), called [CINDER](http://www.darpa.mil/Our_Work/I2O/Programs/Cyber-Insider_Threat_(CINDER).aspx).
 
-How the DoD unintentionally created [ WikiLeaks ]:
-     2009  - talk going on about wikileaks in berlin: [ strobe ], [ prof ] were [ assange ]’s handles. mudge talks to assange over dinner. and asked, if assange received incriminating evidence would he publish? never answered. assange was working on research at university when the funding gets pulled by the US government. at that point he decided he was going to devote his life to exposing secrets that disadvantage others.
+How the DoD unintentionally created [ WikiLeaks ](http://wikileaks.org):
+     2009  - talk going on about wikileaks in berlin: strobe, prof were [ assange ](http://en.wikipedia.org/wiki/Julian_Assange)’s handles. mudge talks to assange over dinner. and asked, if assange received incriminating evidence would he publish? never answered. assange was working on research at university when the funding gets pulled by the US government. at that point he decided he was going to devote his life to exposing secrets that disadvantage others.
 
-[Anonymous] at the DoD:
+[Anonymous](http://en.wikipedia.org/wiki/Anonymous_(group)) at the DoD:
      at some points Anon’s scope grew to include the government. strategy was that DoD was going to treat cyberspace as a domain to test in. this galvanized folks to respond, problem was, they didn’t specify who.
 so a couple of websites got defaced, which is a warning message. but the government didn’t understand and just thought it was hostile. so keep in the DoD has only very specific intents & agendas so ensure you send messages both sides can understand.
 
 Can’t government contractors make more money remaining compromised? game theory is a bitch.
-1. [RSA is compromised]
-2. [stealth drone contractor gets compromised]
-3. [drone goes missing over middle east]
+1. [RSA is compromised](https://www.schneier.com/blog/archives/2011/10/full_extent_of.html)
+2. [stealth drone contractor gets compromised](http://www.informationweek.com/security/risk-management/china-tied-to-3-year-hack-of-defense-contractor/d/d-id/1109795?)
+3. [drone goes missing over middle east](http://www.voanews.com/content/us-asks-iran-to-return-lost-drone-135475008/173328.html)
 
 what happens when someone steals some of your tech? you have to make more. and, most likely, government contractor will be requested to build better tech.
 
 Mudge went to DARPA to try and fix from the inside.
-result: CFT: [Cyber Fast Track]
+result: CFT: [Cyber Fast Track](http://www.infosecurity-magazine.com/view/31152/darpa-says-goodbye-to-hackerfriendly-cyber-fast-track-program/)
 CFT helped to transition thoughts of hackers from criminals to researchers. suggestions for the government:
 1. go engage & interact with the local community
 2. stop with the offensive recruitment. instead, contribute to the community. it’s a meritocracy.
 
 “challenging government is why we’re such a great nation” somebody’s gonna change CFA: support them
 
-[Barnaby Jack]
-crazy exploits: [wireless router exploit]. [ PCI boot exploit ]
+[Barnaby Jack](http://en.wikipedia.org/wiki/Barnaby_Jack)
+crazy exploits: [wireless router exploit (warning: pdf)](https://www.blackhat.com/presentations/bh-europe-06/bh-eu-06-Jack.pdf). PCI boot exploit
 
 
 ### Home Invasion 2.0

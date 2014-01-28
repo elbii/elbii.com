@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Fully Automate Your Rails / NodeJS Tests in 30 Minutes
+title: Automate Your Node Tests 1 hour
 tags:
 - nodejs
 - jenkins
