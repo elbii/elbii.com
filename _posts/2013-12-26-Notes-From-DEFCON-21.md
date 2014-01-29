@@ -12,24 +12,24 @@ tags:
 ## Notes from Select Talks at DEFCON 21
 Earlier this year I had the privilege to attend DEFCON 21. I wanted to experience the security community's reaction to the Edward Snowden revelations. Not surprisingly, many of the talks focused on issues related to privacy and civil liberty, and these are the onesI tried to attend most. Here are my notes.
 
-1. Welcome / Badges
-2. The Growing Irrelevance of US Government Cybersecurity Intelligence Information
-3. Backdoors, Government Hacking, and the Next Crypto Wars
-4. Meet the VCs
-5. ACLU Presents
-6. UFOs and Government: A Historical Inquiry
-7. Hacking Institutions
-8. Home Invasion 2.0
-9. RFID Hacking: Live Free or RFID Hard
-10. Stalking a City for Fun and Frivolity
-11. An Open Letter — the Whitehat’s Dilemma: Professional Ethics in the Age of Swartz, Prism, and Stuxnet
-12. HiveMind
-13. Defending Networks with Incomplete Information: A Machine Learning Approach
+1. [Welcome / Badges](#welcome)
+2. [The Growing Irrelevance of US Government Cybersecurity Intelligence Information](#growing)
+3. [Backdoors, Government Hacking, and the Next Crypto Wars](#backdoors)
+4. [Meet the VCs](#meet)
+5. [ACLU Presents](#aclu)
+6. [UFOs and Government: A Historical Inquiry](#ufos)
+7. [Hacking Institutions](#hacking)
+8. [Home Invasion 2.0](#home)
+9. [RFID Hacking: Live Free or RFID Hard](#rfid)
+10. [Stalking a City for Fun and Frivolity](#stalking)
+11. [An Open Letter — the Whitehat’s Dilemma: Professional Ethics in the Age of Swartz, Prism, and Stuxnet](#open)
+12. [HiveMind](#hivemind)
+13. [Defending Networks with Incomplete Information: A Machine Learning Approach](#defending)
 
 
 
 
-### Welcome / Badges
+### <a name="welcome"></a> Welcome / Badges
 #### 
 
 Traditional DC trifecta:
@@ -50,7 +50,7 @@ alternate having microcontrollers and not every year. dc 22 will have powerful y
 this year, press badge is a deuce, all others are face cards.
 
 
-### The Growing Irrelevance of US Government Cybersecurity Intelligence Information
+### <a name="growing"></a> The Growing Irrelevance of US Government Cybersecurity Intelligence Information
 #### Mark Weatherford
 
 irrecoverable hard drive failure last night led to no slides... d'oh!
@@ -92,7 +92,7 @@ what govt can do:
 4. fund the isacs!
 
 
-### Backdoors, Government Hacking, and the Next Crypto Wars
+### <a name="backdoors"></a> Backdoors, Government Hacking, and the Next Crypto Wars
 #### Christopher Soghoian
 
 He was first technologist at ACLU to focus solely on privacy & surveillance.
@@ -138,8 +138,8 @@ no, [silent circle](https://silentcircle.com), [spider oak](https://spideroak.co
 calea omits wiretapping if user encryption is used, so govt will probably target this section of the law.
 
 
-### Meet the VCs
-#### Deepak, John, Ping, Andressen Horowitz, Accel Partners
+### <a name="meet"></a> Meet the VCs
+#### Eileen Burbidge ([Passion Capital](http://www.passioncapital.com)), Deepak Jeevankumar ([General Catalyst](http://www.generalcatalyst.com)), John M. Jack ([Andreessen Horowitz](http://a16z.com)), Ping Li ([Accel Partners](http://www.accel.com), Matt Ocko ([Data Collective](http://dcvc.com)) 
 
 guy from [Lookout Security](https://www.lookout.com) is panel moderator
 
@@ -173,7 +173,7 @@ A: gave the dude a 10-min pitch opportunity on the spot
 other options to raise money include [kickstarter](http://www.kickstarter.com), [angelist](http://angel.co)
 
 
-### ACLU Presents
+### <a name="aclu"></a> ACLU Presents
 #### Alex Abdo, Catherine Crump, Christopher Soghoian, Nicole Ozer, Cate Crockford
 
 Applause to Ed Snowden…
@@ -201,8 +201,8 @@ guilty until proven innocent
 personal privacy and government transparency have been flipped recently. [automatic license plate readers](http://en.wikipedia.org/wiki/Automatic_number_plate_recognition) aren’t as ubiquitous as [cctv cameras](http://en.wikipedia.org/wiki/Closed-circuit_television) but soon will be. [vigilant solutions](http://vigilantsolutions.com) has over [1 billion license plate reads](http://vigilantsolutions.com/press/hollywood_police_locate_fugitives_license_plate_reader_data). available not only to government, but also to [private companies!](http://vigilantsolutions.com/products/nvls) (WTF). twitter notifies users of [subpoenas issued for them](https://support.twitter.com/articles/41949-guidelines-for-law-enforcement). [join aclu](https://www.aclu.org/secure/join-aclu), 700,000 members, to increase their voice in D.C.
 
 
-### UFOs and Government: A Historical Inquiry
-#### 
+### <a name="ufos"></a> UFOs and Government: A Historical Inquiry
+#### Richard Thieme 
 
 They’re here. but what does it mean? WWII marked modern era of UFO reports and denials. Only book recommended by [CHOICE](http://www.ala.org/acrl/choice/) for academic study. [Chinatown](http://www.imdb.com/title/tt0071315/): movie that describes this talk. chinatown moments are moments where you realize everything you thought is no longer the same. people in power just wait it out. easy political game. this talk is not about standard UFOs pictures that have been faked / hoaxed.
 
@@ -222,7 +222,7 @@ flying saucers are not a threat to national security. reports of flying saucers 
 2. distractions
 
 
-### Hacking Institutions
+### <a name="hacking"></a> Hacking Institutions
 #### Mudge
 
 Darpa-mil announcement for new supercomputer
@@ -256,22 +256,22 @@ CFT helped to transition thoughts of hackers from criminals to researchers. sugg
 crazy exploits: [wireless router exploit (warning: pdf)](https://www.blackhat.com/presentations/bh-europe-06/bh-eu-06-Jack.pdf). PCI boot exploit
 
 
-### Home Invasion 2.0
-#### Daniel Crowley & David Bryan ([Trustwave]), Jennifer Savage ([TabbedOut Security])
+### <a name="home"></a> Home Invasion 2.0
+#### Daniel Crowley & David Bryan ([Trustwave](http://www.trustwave.com)), Jennifer Savage ([TabbedOut Security](http://www.tabbedout.com))
 
-Dystopian science fiction serves as a warning of the future device and product makers. locks, thermostats, fridges, toilets, lights, toys. [song-du]: high-tech city
+Dystopian science fiction serves as a warning of the future device and product makers. locks, thermostats, fridges, toilets, lights, toys. [song-du](http://www.songdo.com): high-tech city
 
-[Karotz Smart Rabbit]:
+[Karotz Smart Rabbit](http://store.karotz.com/en_US/):
 camera, microphone, RFID reader, RFID toys. USB port
 SSID, auth sent unencrypted.
 unencrypted remote API calls
 unencrypted setup package download
 code signing but python module hijacking
 raw video stream
-python module hijacking similar to DLL hijacking ([LD_PRELOAD exploit via PYTHON_PATH])
+python module hijacking similar to DLL hijacking [(LD_PRELOAD exploit)](http://stackoverflow.com/questions/426230/what-is-the-ld-preload-trick)
 bunny botnet! one-time tokens can be re-used for spying raw video.
 
-[Belkin WeMo Switch]:
+[Belkin WeMo Switch](http://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/):
 belkin has good security culture!
 provides free devices to security researchers
 vulnerable libupnp
@@ -279,26 +279,26 @@ unauthed upnp actions
 EULA used to secure devices, runs linux
 nmap: broadcast upnp_info
 
-[ Sonos Bridge ]:
+[ Sonos Bridge ](http://www.sonos.com/shop/products/bridge):
 support console information disclosure
 netstat, process list, list of users, ifconfig, whoami
 
-[ LIXIL Satis Smart Toilet ]
+[ LIXIL Satis Smart Toilet ](http://www.inax-usa.com/technology/satis/)
 android app that controls via bluetooth, bidet, music, flush
 default bluetooth PIN: 0000
 
-[ INSTEON Hub ]
+[ INSTEON Hub ](http://www.insteon.com/2242-222-insteon-hub.html)
 home control device for home automation. has no encryption whatsoever, no authentication by default
 hard-coded base64
 
-[ MiCasa Verde VeraLite ]
+[ MiCasa Verde VeraLite ](http://getvera.com/controllers/veralite/)
 no authentication as a guest user, can update firmward
 CSRF
 no shadow, vulnerable libupnp
 
 
-### RFID Hacking: Live Free or RFID Hard
-#### 
+### <a name="rfid"></a> RFID Hacking: Live Free or RFID Hard
+#### Francis Brown
 
 RFID Pentest:
 1. Steal badge info
@@ -306,34 +306,34 @@ RFID Pentest:
 3. Use info
 
 Problem: Require people to be within 2-3cm
-[Proxmark]: RFID Hacking tool (most popular)
+[Proxmark](http://www.proxmark.org): RFID Hacking tool (most popular)
 Required to be within 1” (little too close for comfort)
 
-[Tastic long-range RFID reader]
+[Tastic long-range RFID reader](http://www.bishopfox.com/resources/tools/rfid-hacking/attack-tools/)
 1ft x 1ft
 Long-distance commercial badge reader
 writes to cards.txt microSD card internal circuit. easily removable cover
 
-programmable [t557 rfid card] used to clone
+programmable [t557 rfid card](http://www.alibaba.com/showroom/t557-rfid-card.html) used to clone
 
 how it works:
 card receives power, sends out bits into the air always 44 bits. starts with six 0s and a 1.
 
-[proxmark 3]: $400
-[proxbrute]: custom firmware you can use to do bruteforcing. [ RFIDiot ]
-[ RFIDeas tools ]
+[proxmark 3](http://proxmark3.com): $400
+[proxbrute](https://github.com/brad-anton/proxbrute): custom firmware you can use to do bruteforcing. [ RFIDiot ](http://rfidiot.org)
+[ RFIDeas tools ](http://www.rfideas.com/Software/Tools/)
 usb sticks for reading badges
 commercial readers 2 HID readers
 tastic solution: arduino capabilities
-[cloner 2.0 by paget]: long-distance reader
+[cloner 2.0 by paget (warning pdf)](http://www.tombom.co.uk/extreme_rfid.pdf): long-distance reader
 
 
-### Stalking a City for Fun and Frivolity
+### <a name="stalking"></a> Stalking a City for Fun and Frivolity
 #### Bendan O'Connor
 
 every single thing leaks way too much data. we’ve forgotten as a community how to protect privacy & security of our users. it’s no longer possible to blend into the crowd. it’s possible to own someone’s life. bluecoat boxes found in enemy countries or countries with oppressive regimes. cops with cameras are less likely to use excessive force.
 
-[creepyDOL]:
+[creepyDOL](http://dangerousprototypes.com/2013/08/10/creepydol-wifi-surveillance-project-debuts-at-blackhatdefcon/):
 true identity theft for a city. stalking as a service. we can’t rely on government to prosecute hackers.
 
 darpa cft is not cft work. reticle and visualization system. how much can we extract from only wireless? wi-fi devices send everything out they know around them.
@@ -344,38 +344,38 @@ until every script kiddie can operate these things, it won’t get better.
 background, large-scale surveillance
 
 
-[f-bomb v1], shmoocon 2012
-[pogoplug]
+[f-bomb v1, shmoocon 2012](http://www.wired.com/geekdad/2012/01/f-bomb-shmoocon/)
+[pogoplug](https://pogoplug.com)
 fits inside carbon monoxide detector
 uses 2-WiFi
-[PortalSmash] auto-agrees to wi-fi hotspots
-[Reticle]:
+[PortalSmash](https://github.com/ussjoin/portalsmash) auto-agrees to wi-fi hotspots
+[Reticle](https://github.com/ussjoin/reticle):
 Designed to work a lot like a botnet
-[couchDB], [nginx], tor hidden services
-boots only with USB key, volatile memory, [Tor]
+[couchDB](http://couchdb.apache.org), [nginx](http://nginx.org), tor hidden services
+boots only with USB key, volatile memory, [Tor](https://www.torproject.org)
 
 centralized query for centralized questions, only 8 GBs of drive storage.
 observation filters
 google reader alternatives are typically very insecure.
 creepyDOL
 
-[shark]: in-memory derivative of hadoop hive
+[shark](http://spark.incubator.apache.org): in-memory derivative of hadoop hive
 
 second darpa cft contract. used unity game engine. servers do the heavy lifting
 can be used for counter infiltration
 
 why is privacy important? someone will do something wrong at some point & you can catch them. can be sealed up pretty easily.
 
-[RTLSDR]: software-defined radio.
-[reaver] - wi-fi encryption break
+[RTLSDR](http://sdr.osmocom.org/trac/wiki/rtl-sdr): software-defined radio.
+[reaver](https://code.google.com/p/reaver-wps/) - wi-fi encryption break
 
 mitigation: we have to sacrifice things we love to fix this.
 problems: IEEE protocol spec says you can beacon wi-fi networks. turn on VPN *before* any packets are sent. IOS should have this feature.
-[thehark.net]
+[thehark.net](https://www.kickstarter.com/projects/USSJoin/hark-the-hacker-archive)
 
 
-### An Open Letter — the Whitehat’s Dilemma: Professional Ethics in the Age of Swartz, Prism, and Stuxnet
-#### 
+### <a name="open"></a> An Open Letter — the Whitehat’s Dilemma: Professional Ethics in the Age of Swartz, Prism, and Stuxnet
+#### Alex Stamos
 
 
 infosec sellout, corporate whitehat sellout
@@ -395,32 +395,32 @@ corp vs corp & state vs corp infowarfare already
 semi-autonomous killer robots
 crime prevention via massive data collection
 
-[stuxnet], flame, and vuln disclosure
+[stuxnet](http://en.wikipedia.org/wiki/Stuxnet), flame, and vuln disclosure
 
 cyberware is real
 almost any important corporation is facing highly motivated, well-funded companies
 us software companies are directly attacked to create electronic munitions
 
-[flame] was designed to attack microsoft
+[flame](http://en.wikipedia.org/wiki/Flame_(malware)) was designed to attack microsoft
 exploits are sent to adversaries as weapons, vendors notified by unaffiliated researchers
 
 how do you interact with cyberwar?
 who is getting your bugs?
-[ sergey alikinov ], [ samarth agrawal ], [ Ben Pn ], [ sahil uppal ]
+[ sergey alikinov ](http://en.wikipedia.org/wiki/Sergey_Aleynikov), [ samarth agrawal ](http://www.businessinsider.com/samarth-agrawal-3-years-socgen-prison-high-frequency-code-2011-3), [ Ben Pu , sahil uppal ](http://abclocal.go.com/wls/story?id=9063291)
 
-[ CFAA ]:
-[david nasal]
-[lori drew]
-[weev]
-[ aaron swartz ]
+[ CFAA ](http://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act):
+[david nasal](http://en.wikipedia.org/wiki/United_States_v._Nosal)
+[lori drew](http://en.wikipedia.org/wiki/United_States_v._Drew)
+[weev](http://en.wikipedia.org/wiki/Weev)
+[ aaron swartz ](http://www.aaronsw.com)
 
 his product is used to prosecute people who’ve done bad things
 what is the tech expert’s responsibility beyond telling the truth? just a passive observer?
 
 NSA scandals, long-time paranoids are validated
-[overton window]: most important thing about an idea is whether it’s publicly acceptable discourse. otherwise, revolt
+[overton window](http://en.wikipedia.org/wiki/Overton_window): most important thing about an idea is whether it’s publicly acceptable discourse. otherwise, revolt
 NSA conspiracy changes overton window.
-[fiber optic cables cut allowed for tap to be installed]!
+[fiber optic cables cut allowed for tap to be installed](http://www.wired.com/threatlevel/2013/06/gchq-tapped-200-cables/)!
 exciting time to be in industry, but must make extremely careful decisions.
 
 what is the united states? dirt we walk on? government? proud of the idea, federalist papers. but when the best people act against the people given the chance. responsibility to your family prevents risky disclosures.
@@ -440,7 +440,7 @@ things that drive careers:
 - build something that lasts
 - never be forgotten
 
-chapter 3: make decisions, activity preparation [test Q & A session]
+chapter 3: make decisions, activity preparation
 choose, avatar, (ultima IV)
 
 find an exploit in a public product:
@@ -473,11 +473,11 @@ B. escalate
 C.
 
 IDS is used to oppress, what do you do?
-[MadeOpen]: personal cloud
+[MadeOpen](http://www.madeopen.com): personal cloud
 IIW
 
 
-### HiveMind
+### <a name="hivemind"></a> HiveMind
 #### Sean Malone
 
 uses real web apps to store, no vulnerability that can be fixed. not going anywhere
@@ -487,20 +487,10 @@ sandboxing? not relevant since not using anything out of the ordinary. great way
 use websockets, but fallback to ajax
 data storage is html5 web storage
 back end:
-[rails], [redis], [mySQL]
+[rails](http://rubyonrails.org), [redis](http://redis.io), [mySQL](http://dev.mysql.com)
 network scanning (can JS do this??)
 DDoS attacks
 data processing (web workers)
-
-##################################
-          File
-
-Name     Mimetype     Data
-
-Encrypted Data
-Base64
-Block1 Block2 Block3… etc
-##################################
 
 storing a block:
 server keeps track of which nodes have which blocks.
@@ -520,7 +510,7 @@ is a user responsible for illegal content placed on their system?
 (demo)
 
 
-### Defending Networks with Incomplete Information: A Machine Learning Approach
+### <a name="defending"></a> Defending Networks with Incomplete Information: A Machine Learning Approach
 #### Alexandre Pinto
 
 lot of math involved
@@ -533,7 +523,7 @@ training does not include how to use data + dashboards to find these things.
 
 big data:
 how many know/will learn statistics, data analytics, data science? we need an army.
-|machine learning| how do you build features to tell the algorithm how to learn?
+[machine learning](http://en.wikipedia.org/wiki/Machine_learning) how do you build features to tell the algorithm how to learn?
 applications of machine learning: big in sales and trading
 find cat pictures on the internet: google
 security applications: bayesian filtering, fraud detection network anomaly detection, spam filters
@@ -553,15 +543,15 @@ BUT
 people would like to fuck with it? in security world, people will try to mess with you. designing a model to detect malicious behavior. firewall block data from SANS dshield (per day).  SANS will provide if nicely asked.
 model intuition: proximity
 assumptions to aggregate the data
-[SpamHaus] came up and said the whole ISP is malicious
-[google malware report]: some places are more likely to have malware.
-[moura 2013]
-[hilbert curve]
-[temporal decay] (important)
+[SpamHaus](http://www.spamhaus.org) came up and said the whole ISP is malicious
+[google malware report](http://www.google.com/transparencyreport/safebrowsing/malware/#region=ALL&period=90&size=LARGEST&compromised&attack&asn=41390&page=1): some places are more likely to have malware.
+[moura 2013](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6572993)
+[hilbert curve](http://en.wikipedia.org/wiki/Hilbert_curve)
+[temporal decay (important)](http://en.wikipedia.org/wiki/Decay_theory)
 
 as time passes, back off and forget people were attacking you. training data usually spans multiple days. training the model: you need negative and positive observations.
-[support vector machines] (SVM). 70-92% true positive, 95-99% true negative rate… if the model says something is bad, it is multiple times more likely to actually be bad.
+[support vector machines](http://en.wikipedia.org/wiki/Support_vector_machine). 70-92% true positive, 95-99% true negative rate… if the model says something is bad, it is multiple times more likely to actually be bad.
 tier 1 & 2 SOC analysts can really benefit from this.
 
-[http://www.mlsecproject.org]
-@MLSecProject
+[MLSecProject](http://www.mlsecproject.org)
+[@MLSecProject](https://twitter.com/MLSecProject)
