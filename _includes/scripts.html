@@ -20,36 +20,54 @@
 <script src="js/custom.js" type="text/javascript"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript">
-    var myLatlng;
+    var SFlatlng;
+    var ATXlatlng;
+    var NYClatlng;
     var map;
     var marker;
 
     function initialize() {
-        myLatlng = new google.maps.LatLng(37.397802, -121.890288);
+
+
+        SFlatlng = new google.maps.LatLng(37.776241, -122.417535);
+        ATXlatlng = new google.maps.LatLng(30.259135, -97.792878);
+        NYClatlng = new google.maps.LatLng(40.661794, -73.917574);
+
+        var center = new google.maps.LatLng(39.108254, -94.629999);
 
         var mapOptions = {
-            zoom: 13,
-            center: myLatlng,
+            zoom: 4,
+            center: center,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,
             draggable: false
         };
         map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-        var contentString = '<p style="line-height: 20px;"><strong>Banzhow Template</strong></p><p>123 My Street, Banzhow City, CA 4567</p>';
-
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString
+        SFmarker = new google.maps.Marker({
+            position: SFlatlng,
+            map: map,
+            title: 'Marker'
         });
-
-        marker = new google.maps.Marker({
-            position: myLatlng,
+        ATXmarker = new google.maps.Marker({
+            position: ATXlatlng,
+            map: map,
+            title: 'Marker'
+        });
+        NYCmarker = new google.maps.Marker({
+            position: NYClatlng,
             map: map,
             title: 'Marker'
         });
 
         google.maps.event.addListener(marker, 'click', function() {
-            infowindow.open(map, marker);
+            infowindow.open(map, SFmarker);
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, ATXmarker);
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, NYCmarker);
         });
     }
 
